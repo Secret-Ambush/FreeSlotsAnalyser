@@ -224,7 +224,7 @@ def filter_df_by_target(df, selected_years, selected_disciplines):
                         break
 
             # Allow universal courses (BITS, PHY, BIO) if year matches
-            if discipline not in ["CS", "EEE", "ECE", "CHEM", "CIVIL"]:
+            if discipline not in ["CS", "BIOT", "EEE", "ECE", "CHE", "CE", "ME"]:
                 discipline_match = True
 
             if discipline_match and year_match:
@@ -337,7 +337,7 @@ with st.form("academic_info_form"):
 
     year_options = ["First Year", "Second Year", "Third Year", "Fourth Year"]
     semester_options = ["First Semester", "Second Semester"]
-    discipline_options = ["CS", "EEE", "ECE", "CHEM", "CIVIL"]
+    discipline_options = ["CS", "BIOT", "EEE", "ECE", "CHE", "CE", "ME"]
 
     target_years = st.multiselect("Select Target Years:", options=year_options)
     current_semester = st.radio("Select Current Semester:", options=semester_options, horizontal=True)
