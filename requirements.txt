@@ -1,9 +1,8 @@
-PyMuPDF
+PyMuPDF==1.22.5
 matplotlib
 numpy
 pandas
 Pillow
 seaborn
 streamlit
-tabula
-tabula_py
+tabula-py
