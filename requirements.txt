@@ -1,0 +1,10 @@
+streamlit
+pandas==2.2.2
+numpy
+PyMuPDF==1.22.5
+tabula-py
+python-constraint
+matplotlib
+Pillow
+streamlit-js-eval
+streamlit_pdf_viewer
