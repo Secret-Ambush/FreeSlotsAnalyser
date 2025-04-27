@@ -1,10 +1,9 @@
-streamlit
-pandas==2.2.2
-numpy
-PyMuPDF==1.22.5
-tabula-py
-python-constraint
+fitz
 matplotlib
+numpy
+pandas
 Pillow
-streamlit-js-eval
-streamlit_pdf_viewer
+seaborn
+streamlit
+tabula
+tabula_py
