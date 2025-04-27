@@ -13,6 +13,6 @@ Built with Streamlit, Pandas, and Seaborn.
 Designed and developed by Riddhi Goswami.
 
 
-✅ Clean heatmaps with slot numbers
-✅ Full detailed timetable view
-✅ Works directly from BPDC timetable input
+✅ Clean heatmaps with slot numbers  
+✅ Full detailed timetable view  
+✅ Works directly from BPDC timetable input 
