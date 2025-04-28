@@ -277,9 +277,6 @@ def build_slot_counter_and_details(df):
     return counter_matrix, details_matrix
 
 def visualise_slot_counter(counter_matrix):
-    st.subheader("📋 Class Load Timetable")
-    st.dataframe(counter_matrix.style.highlight_max(axis=0, color='lightcoral'), use_container_width=True)
-
     st.subheader("🔥 Heatmap of Class Clashes")
 
     slots_list = list(counter_matrix.index)
